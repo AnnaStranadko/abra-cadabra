@@ -1,0 +1,15 @@
+//Header
+
+.header {
+  padding-top: 1.2rem;
+  padding-bottom: 1.2rem;
+  position: absolute;
+  width: 100%;
+
+  &__inner {
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+
+  }
+}

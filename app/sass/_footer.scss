@@ -1,0 +1,31 @@
+//Footer
+.footer {
+  padding: 3.57rem 0;
+
+  &__copyright {
+    color: $footer-text;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 0;
+  }
+}
+
+// Footer media
+@media (max-width: 991px) {
+
+  .nav {
+    display: block;
+    text-align: center;
+    padding-bottom: 3rem;
+
+    &__item:not(:last-child) {
+      &::after {
+        display: none;
+      }
+    }
+
+    &__link {
+      margin: 0;
+    }
+  }
+}

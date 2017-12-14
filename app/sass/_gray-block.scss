@@ -1,0 +1,17 @@
+.gray-block {
+  background: $gray-light-bg;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  min-height: 10.7rem;
+  padding: 2.14rem;
+
+  &__text {
+    line-height: 2.4rem;
+    font-size: 1.29rem;
+    font-style: italic;
+    margin-bottom: 0;
+    flex:9;
+    padding-right: 1rem;
+  }
+}

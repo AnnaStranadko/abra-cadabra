@@ -1,0 +1,46 @@
+.social-icons {
+
+  &__item {
+    display: inline;
+    list-style-type: none;
+    margin-right: 1rem;
+    padding: 0;
+
+    &:last-of-type {
+      margin-right: 0;
+    }
+  }
+
+  &__link {
+    font-size: 1.28rem;
+    color: $gray-light;
+    font-family: 'ionicons-font-family';
+    font-weight: 400;
+    font-style: normal;
+
+    &--facebook::before {
+      content: "\f231";
+    }
+
+    &--youtube::before {
+      content: "\f243";
+    }
+
+    &--twitter::before {
+      content: "\f24d";
+    }
+
+    &--linkedin::before {
+      content: "\f239";
+    }
+
+    &--pinterest::before {
+      content: "\f2b1";
+    }
+
+    &--instagram::before {
+      content: "\f351";
+    }
+
+  }
+}

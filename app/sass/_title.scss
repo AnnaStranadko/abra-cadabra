@@ -1,0 +1,50 @@
+//Title
+
+@mixin font-top {
+  font-family: Montserrat, sans-serif;
+  color:  $primary;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.title{
+  @include font-top;
+  line-height: 1;
+  font-size: 2.14rem;
+  &::after {
+    display: block;
+    position: relative;
+    content: "";
+    height: 0.4rem;
+    width: 4.8rem;
+    background: #6fc;
+    transition: width 0.3s ease-in-out;
+  }
+    &--white{
+      color:  $white;
+      padding-bottom:0.5rem;
+      line-height: 1.6;
+      &::after {
+        display: none;
+      }
+  }
+
+    &__text{
+     line-height: 1.7;
+     text-align: center;
+    }
+  }
+
+
+.title-center{
+  @extend .title;
+  display: inline-block;
+
+  &__text{
+    padding-bottom: 5.7rem;
+  }
+}
+
+
+
+

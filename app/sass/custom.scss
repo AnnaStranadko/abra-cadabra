@@ -1,0 +1,49 @@
+@import "bootstrap.scss";
+//Helpers
+@import "helpers/fonts.scss";
+@import "helpers/colors.scss";
+@import "helpers/mixins.scss";
+//Basic
+@import "basic.scss";
+//Sections
+@import "header.scss";
+@import "main.scss";
+@import "info.scss";
+@import "features.scss";
+@import "team.scss";
+@import "author.scss";
+@import "contacts.scss";
+@import "footer.scss";
+//Parts???
+@import "burger.scss";
+@import "card.scss";
+@import "gray-block.scss";
+@import "newsletter-block.scss";
+@import "nav.scss";
+@import "social-icons.scss";
+//Titles
+@import "title.scss";
+@import "small-title.scss";
+@import "icon-title.scss";
+@import "icon-title.scss";
+//Buttons
+@import "btns.scss";
+//Logo
+@import "logo.scss";
+
+/*Media
+
+@media  (max-width: 767px) {
+}
+
+@media  (max-width:  991px) {
+
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199px) { }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+
+}*/

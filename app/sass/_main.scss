@@ -1,0 +1,35 @@
+//Main
+
+.main {
+  &__bg {
+    background: $gray;
+    min-height: 35.7rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__text {
+    @include font-top;
+    text-align: center;
+    padding-top: 7rem;
+  }
+
+  &__title {
+    font-size: 2.57rem;
+    line-height: 3.4rem;
+  }
+
+  &__links {
+    @include font-top;
+  }
+}
+
+//Main media
+@media (max-width: 575px) {
+
+  .main__title {
+    font-size: 2rem;
+  }
+}

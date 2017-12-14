@@ -1,0 +1,40 @@
+html {
+  font-size: 14px;
+
+  @media (min-width: 1200px) {
+    //font-size: 16px;
+    // line-height: 1.4;
+  }
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: $primary;
+  font-weight: 400;
+  line-height: 2.143;
+}
+
+ul > li {
+  text-decoration: none;
+}
+
+ul {
+  padding: 0;
+}
+
+a {
+  color: inherit;
+
+  &:hover {
+    text-decoration: none;
+    color: darken($secondary, 15%);
+  }
+}
+
+
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: inherit;
+  font-weight: 700;
+  color: inherit;
+}

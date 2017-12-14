@@ -1,0 +1,52 @@
+.btn {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: $white;
+  line-height: 1;
+  background-color: $secondary;
+  border-radius: 0;
+  border: none;
+  padding-top: 1.3rem;
+  padding-bottom: 1.3rem;
+
+   &:hover{
+     background-color: darken($secondary, 15%);
+     box-shadow: 1px 0 4px #69CCAB;;
+     color: white;
+   }
+
+  &--small {
+   padding: 0.5rem 0.85rem;
+  }
+
+  &--white {
+    background-color: $white;
+    color: $secondary;
+
+    &:hover{
+      color: $secondary;
+      background-color: $white;
+      box-shadow:1px 0 19px #69CCAB;;
+    }
+  }
+
+  &--fix-width{
+    min-width: 11.79rem;
+  }
+
+  &--narrow{
+   padding: 1.3rem 3.4rem;
+  }
+
+}
+
+//Media
+@media (min-width: 576px) and (max-width: 767px) {
+  .btn-form {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+
+  }
+}
+

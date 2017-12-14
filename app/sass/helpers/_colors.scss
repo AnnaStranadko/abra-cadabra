@@ -1,0 +1,22 @@
+$white: #ffffff;
+$primary: #60606e;
+$secondary: #7beec7;
+
+$gray: #dbdbdb;
+$text-gray: #666666;
+$gray-light: #999999;
+$gray-light-bg: rgba(96, 96, 110, 0.1);
+
+$input-gray: #cdcdcd;
+$footer-text: #9a9a9a;
+$button-color: $secondary;
+
+
+
+/*@function set-text-color($color){
+  @if(lightness($color) > 50){
+    @return $white;
+  } @else {
+    @return $text;
+  }
+}*/

@@ -1,0 +1,78 @@
+
+.burger {
+  width: 23px;
+  height: 16px;
+  cursor: pointer;
+  position: absolute;
+  right: 0;
+  top: 1.16rem;
+  z-index: 12;
+}
+
+.burger div {
+  display: block;
+  position: absolute;
+  height: 2.5px;
+  width: 100%;
+  background: #666;
+  opacity: 1;
+  transition: top 0.2s 0.2s linear, opacity 0.1s 0.2s linear,
+  transform 0.2s linear;
+  z-index: 1000;
+}
+
+.burger div:nth-child(1) {
+  top: 0;
+}
+
+.burger div:nth-child(2),
+.burger div:nth-child(3) {
+  top: 6.5px;
+}
+
+.burger div:nth-child(4) {
+  top: 13px;
+}
+
+.burger.active div {
+  top: 6.5px;
+  transition: top 0.2s linear, opacity 0.1s 0.2s linear, transform 0.2s 0.2s linear;
+
+  &:nth-child(1) {
+    transform: rotate(45deg);
+  }
+  &:nth-child(2), &:nth-child(3) {
+    opacity: 0;
+  }
+  &:nth-child(4) {
+    transform: rotate(-45deg);
+  }
+}
+
+.burger-open {
+  display: none;
+  &.active {
+    display: block;
+    list-style: none;
+    text-align: center;
+    font-size: 1.57rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    background-color: $secondary;
+    transition: all 0.2ms ease-in-out
+  }
+
+  &__link {
+    display: block;
+    padding: 1.36rem;
+    border-right: 1px solid #f4f4f4;
+    text-decoration: none;
+    @include font-top;
+
+    &:hover {
+      background-color: #f4f4f4;
+    }
+  }
+}

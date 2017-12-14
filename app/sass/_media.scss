@@ -1,0 +1,102 @@
+//Media queries
+
+@media (max-width: 575px) {
+
+  .main h1 {
+    font-size: 2rem;
+  }
+
+    .nav {
+      display: block;
+      text-align: center;
+      padding-bottom: 3rem;
+
+      &-item:not(:last-child) {
+        &::after {
+          display: none;
+        }
+      }
+    }
+
+    .nav-link {
+      margin: 0;
+    }
+
+    .btn-form{
+      margin-top: 1rem;
+    }.btn-form{
+       margin-top: 1rem;
+     }
+
+  .team-item{
+    width: 80%;
+    text-align: center;
+  }
+
+  }
+
+
+
+  // Small devices (landscape phones, 576px and up)
+  @media (min-width: 576px) and (max-width: 767px) {
+    .nav {
+      display: block;
+      text-align: center;
+      padding-bottom: 3rem;
+      &-item:not(:last-child) {
+        text-align: center;
+        &::after {
+          content: "none";
+        }
+      }
+
+      &-link {
+        margin: 0;
+      }
+    }
+
+    .btn-form {
+      padding-right: 1.5rem;
+      padding-left: 1.5rem;
+
+    }
+
+    .team-item {
+      width: 80%;
+      text-align: center;
+    }
+
+    .title,   .info-second-title{
+
+    }
+  }
+
+  // Medium devices (tablets, 768px and up)
+  @media (min-width: 768px) and (max-width: 991px) {
+    .nav {
+      display: block;
+      text-align: center;
+      padding-bottom: 3rem;
+
+      &-item:not(:last-child) {
+        &::after {
+          display: none;
+        }
+      }
+    }
+
+    .nav-link {
+      margin: 0;
+    }
+
+
+
+  }
+
+  // Large devices (desktops, 992px and up)
+  @media (min-width: 992px) and (max-width: 1199px) { }
+
+  // Extra large devices (large desktops, 1200px and up)
+  @media (min-width: 1200px) {
+  }
+

@@ -1,0 +1,25 @@
+//Team
+
+.about-team {
+  padding-top: 2.7rem;
+}
+
+.team {
+
+  &__item {
+    padding-bottom: 2.14rem;
+  }
+
+  &__img {
+    width: 100%;
+  }
+}
+
+//Team media
+@media (max-width: 767px) {
+
+  .team__item {
+    width: 80%;
+    text-align: center;
+  }
+}

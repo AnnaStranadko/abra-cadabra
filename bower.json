@@ -1,0 +1,23 @@
+{
+  "name": "test",
+  "description": "abra cadabra",
+  "main": "index.js",
+  "authors": [
+    "ann"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "app/libs/",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "bootstrap": "^3.3.7",
+    "tether": "^1.4.0",
+    "magnific-popup": "^1.1.0"
+  }
+}

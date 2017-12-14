@@ -1,0 +1,54 @@
+
+
+
+
+
+.icon-title{
+  font-family: Montserrat, sans-serif;
+  color: $text-gray;
+  font-size: 1.286rem;
+  font-weight: 700;
+  line-height: 2.667rem;
+  text-transform: uppercase;
+
+
+&::before {
+  width: 2.9rem;
+  height: 2.9rem;
+  margin-right: 1.4rem;
+  text-align: center;
+  line-height: 2.9rem;
+  background-color: $secondary;
+  font-size: 30px;
+  color: white;
+  position: relative;
+  font-weight: 400;
+  font-family: 'ionicons-font-family';
+  display: inline-block;
+}
+
+ &--settings::before {
+    content:"\f2ad";
+  }
+
+  &--ios-settings::before {
+    content:"\f4a7";
+  }
+  &--iphone::before {
+    content: "\f1fa";
+  }
+
+  &--social-wordpress-outline::before {
+    content:"\f248";
+  }
+  &--ios-infinite::before {
+    content:"\f44a";
+  }
+  &--ios-cart-outline::before {
+    content: "\f3f7";
+  }
+}
+
+
+
+

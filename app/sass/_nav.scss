@@ -1,0 +1,25 @@
+.nav {
+  &__item:not(:last-child) {
+    &::after {
+      content: "-";
+    }
+  }
+
+  &__link {
+    color: $footer-text;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 0;
+    line-height: 3.429;
+    margin-right: 0.7rem;
+    margin-left: 0.7rem;
+  }
+
+  &__item:last-child a {
+    margin-right: 0;
+  }
+
+  &__item:first-child a {
+    margin-left: 0;
+  }
+}
